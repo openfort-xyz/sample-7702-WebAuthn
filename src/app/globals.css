@@ -1,0 +1,58 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+@plugin "daisyui/theme" {
+  name: "light";
+  default: true;
+  prefersdark: false;
+  color-scheme: "light";
+  --color-primary: #93BBFB;
+  --color-primary-content: #212638;
+  --color-secondary: #DAE8FF;
+  --color-secondary-content: #212638;
+  --color-accent: #93BBFB;
+  --color-accent-content: #212638;
+  --color-neutral: #212638;
+  --color-neutral-content: #ffffff;
+  --color-base-100: #ffffff;
+  --color-base-200: #f4f8ff;
+  --color-base-300: #DAE8FF;
+  --color-base-content: #212638;
+  --color-info: #93BBFB;
+  --color-success: #34EEB6;
+  --color-warning: #FFCF72;
+  --color-error: #FF8863;
+  --radius-selector: 2rem;
+  --radius-field: 2rem;
+  --radius-box: 2rem;
+}
+
+@plugin "daisyui/theme" {
+  name: "dark";
+  default: true;
+  prefersdark: true;
+  color-scheme: "dark";
+  --color-primary: #ea580c;
+  --color-primary-content: #F9FBFF;
+  --color-secondary: #323f61;
+  --color-secondary-content: #F9FBFF;
+  --color-accent: #4969A6;
+  --color-accent-content: #F9FBFF;
+  --color-neutral: #F9FBFF;
+  --color-neutral-content: #385183;
+  --color-base-100: #222;
+  --color-base-200: #333;
+  --color-base-300: #444;
+  --color-base-content: #F9FBFF;
+  --color-info: #385183;
+  --color-success: #34EEB6;
+  --color-warning: #FFCF72;
+  --color-error: #FF8863;
+  --radius-selector: .2rem;
+  --radius-field: .2rem;
+  --radius-box: .2rem;
+}
+
+.card-title {
+  @apply border-b-2 border-base-300 pb-2;
+}
