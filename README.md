@@ -250,14 +250,3 @@ WebAuthn with P256 signatures represents a significant leap forward in Web3 user
 The combination of WebAuthn for high-security operations and session keys for routine transactions creates a system that adapts to different security contexts—requiring strong authentication for sensitive actions while enabling frictionless interactions for everyday use.
 
 As account abstraction standards mature and WebAuthn support expands, this approach will become increasingly viable for mainstream Web3 applications. The future of Web3 security isn't about teaching users to manage private keys—it's about making security invisible and automatic.
-
-
----
-
-## Anecdotes
-
-### Stub Signature
-We were stuck with the stub signature for a while, we didn't know that the stub signature had to be different for P256 and WebAuthn. The actual webauthn signature is significantly different from the P256 signature, so the stub signature has to be different as well.
-
-### Webauthn rpId
-We did not know that that Webauthn rpId was needed. If we don't provide it, the browser will throw an error. It binds credentials to a specific domain for strong phishing protection.
