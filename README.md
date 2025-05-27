@@ -4,10 +4,11 @@ Web3 security has long relied on users managing private keys—a significant bar
 
 We'll demonstrate how to build a complete smart account system that:
 
-- Creates secure passkeys using WebAuthn
-- Initializes smart accounts with non-extractable keys
-- Signs and executes UserOperations seamlessly
-- Implements session keys for enhanced user experience
+- Creates secure passkeys using WebAuthn.
+- Initializes session keys with non-extractable keys.
+- Signs and executes transactions with the session keys.
+- Sponsored and batched transactions using EIP-7702.
+- EIP-4337 based relaying and paymasters.
 
 ## Why WebAuthn + P256 for Smart Accounts?
 
