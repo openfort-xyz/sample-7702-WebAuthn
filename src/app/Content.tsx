@@ -13,6 +13,7 @@ import { MintAndTransferWithSessionKeyCard } from "./components/MintAndTransferW
 import { MintWithSessionKeyCard } from "./components/MintWithSessionKeyCard";
 import { MintWithWebAuthnCard } from "./components/MintWithWebAuthnCard";
 import { YourWalletCard } from "./components/YourWalletCard";
+import { FAQSection } from "./components/faq";
 
 const COOKIE_SELECTED_WALLET = 'opf.selectedWallet';
 const COOKIE_SELECTED_CREDENTIAL_ID = 'opf.selectedCredentialId';
@@ -115,11 +116,11 @@ export default function Content() {
 
       <div className="container mx-auto max-w-4xl p-4 space-y-6">
         <h1 className="text-3xl font-bold mb-4">
-          Openfort implementation of EIP-7702 with ERC-4337
+          Passkey Wallet Implementation
         </h1>
         <p className="mb-6 text-lg text-base-content/80">
           The following is a <strong>demo</strong> to show how to use Openfort EIP-7702 with ERC-4337.
-          It uses the new <a className="underline" href="https://github.com/openfort-xyz/openfort-7702-delegator" target="_blank" rel="noopener noreferrer">Delegation Contract</a> from Openfort with <a className="underline" href="https://viem.sh/" target="_blank" rel="noopener noreferrer">Viem</a>.
+          It uses the <a className="underline" href="https://github.com/openfort-xyz/openfort-7702-account" target="_blank" rel="noopener noreferrer">7702 Account</a> from Openfort with <a className="underline" href="https://viem.sh/" target="_blank" rel="noopener noreferrer">Viem</a>.
           This demo includes: WebAuthn, sponsored transactions, batch transactions, and session keys.
         </p>
 
@@ -199,6 +200,8 @@ export default function Content() {
           <MintAndTransferWithSessionKeyCard />
 
         </article>
+
+        <FAQSection />
       </div >
     </ >
   );
