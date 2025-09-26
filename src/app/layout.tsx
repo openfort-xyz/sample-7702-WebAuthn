@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Passkey Wallet - Seedless Ethereum Wallet Demo | Openfort",
     description: "Interactive demo of a seedless Ethereum wallet with EIP-7702 and ERC-4337. Features WebAuthn authentication, sponsored transactions, and session keys.",
-    images: ["/og-image.png"],
+    images: ["images/og.png"],
     creator: "@openfort_xyz"
   },
   robots: {
