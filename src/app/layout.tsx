@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     siteName: "Openfort Passkey Wallet Demo",
     images: [
       {
-        url: "/og-image.png",
+        url: "images/og.png",
         width: 1200,
         height: 630,
         alt: "Passkey Wallet"
@@ -45,9 +45,6 @@ export const metadata: Metadata = {
       'max-snippet': -1
     }
   },
-  verification: {
-    google: "your-google-site-verification-code"
-  }
 };
 
 
