@@ -13,7 +13,7 @@ import { MintAndTransferWithSessionKeyCard } from "./components/MintAndTransferW
 import { MintWithSessionKeyCard } from "./components/MintWithSessionKeyCard";
 import { MintWithWebAuthnCard } from "./components/MintWithWebAuthnCard";
 import { YourWalletCard } from "./components/YourWalletCard";
-import { FAQSection } from "./components/faq";
+import { FAQSection } from "./components/FAQSection";
 
 const COOKIE_SELECTED_WALLET = 'opf.selectedWallet';
 const COOKIE_SELECTED_CREDENTIAL_ID = 'opf.selectedCredentialId';
