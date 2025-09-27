@@ -9,7 +9,7 @@ export function StructuredData() {
     "url": "https://www.openfort.io",
     "logo": "https://passkey-wallet.com/images/og.png",
     "sameAs": [
-      "https://x.com/openfort_xyz",
+      "https://x.com/openfort_hq",
       "https://github.com/openfort-xyz"
     ],
     "description": "Openfort provides seamless Web3 authentication and wallet infrastructure for developers"
