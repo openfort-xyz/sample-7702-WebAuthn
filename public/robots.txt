@@ -1,0 +1,9 @@
+# Allow all web crawlers
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://passkey-wallet.com/sitemap.xml
+
+# Crawl-delay for responsible crawling
+Crawl-delay: 1
