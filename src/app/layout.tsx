@@ -5,16 +5,16 @@ import { AppContextProvider } from "../lib/AppContext/appContextProvider";
 import { PosthogProvider } from "./PosthogProvider";
 
 export const metadata: Metadata = {
-  title: "Passkey Wallet - Seedless Ethereum Wallet with EIP-7702 & ERC-4337 | Openfort Demo",
+  title: "Passkey Wallet - Seedless Ethereum Wallet | Openfort Demo",
   description: "Experience the future of Ethereum wallets with our Passkey Wallet demo. Built by Openfort, featuring EIP-7702 designator capabilities, WebAuthn authentication, sponsored transactions, and session keys.",
   keywords: "Ethereum wallet, WebAuthn, Passkey, EIP-7702, ERC-4337, account abstraction, seedless wallet, Openfort, blockchain, DeFi, smart accounts",
   authors: [{ name: "Openfort" }],
   creator: "Openfort",
   publisher: "Openfort",
   openGraph: {
-    title: "Passkey Wallet - Seedless Ethereum Wallet Demo | Openfort",
+    title: "Passkey Wallet - Seedless Ethereum Wallet Demo",
     description: "Interactive demo of a seedless Ethereum wallet with EIP-7702 and ERC-4337. Features WebAuthn authentication, sponsored transactions, and session keys.",
-    url: "https://sample-7702-webauthn.vercel.app/",
+    url: "https://passkey-wallet.com",
     siteName: "Openfort Passkey Wallet Demo",
     images: [
       {
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Passkey Wallet - Seedless Ethereum Wallet Demo | Openfort",
+    title: "Passkey Wallet - Seedless Ethereum Wallet Demo",
     description: "Interactive demo of a seedless Ethereum wallet with EIP-7702 and ERC-4337. Features WebAuthn authentication, sponsored transactions, and session keys.",
     images: ["images/og.png"],
     creator: "@openfort_xyz"

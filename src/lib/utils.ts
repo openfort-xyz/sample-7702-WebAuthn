@@ -1,18 +1,14 @@
 import { Chain, toHex } from 'viem';
-import { baseSepolia, goerli, mainnet, polygon, polygonMumbai, sepolia } from "viem/chains";
+import { baseSepolia, mainnet, polygon, sepolia } from "viem/chains";
 
 export function chainIdToChain(chainId: string): Chain {
   switch (chainId) {
     case "1":
       return mainnet;
-    case "5":
-      return goerli;
     case "11155111":
       return sepolia;
     case "137":
       return polygon;
-    case "80001":
-      return polygonMumbai;
     case "84532":
       return baseSepolia;
     default:
