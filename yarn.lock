@@ -108,9 +108,9 @@
     levn "^0.4.1"
 
 "@hono/node-server@^1.19.9":
-  version "1.19.9"
-  resolved "https://registry.yarnpkg.com/@hono/node-server/-/node-server-1.19.9.tgz#8f37119b1acf283fd3f6035f3d1356fdb97a09ac"
-  integrity sha512-vHL6w3ecZsky+8P5MD+eFfaGTyCeOHUIFYMGpQGbrBTSmNNoxv0if69rEZ5giu36weC5saFuznL411gRX7bJDw==
+  version "1.19.10"
+  resolved "https://registry.yarnpkg.com/@hono/node-server/-/node-server-1.19.10.tgz#e230fbb7fb31891cafc653d01deee03f437dd66b"
+  integrity sha512-hZ7nOssGqRgyV3FVVQdfi+U4q02uB23bpnYpdvNXkYTRRyWx84b7yf1ans+dnJ/7h41sGL3CeQTfO+ZGxuO+Iw==
 
 "@humanfs/core@^0.19.1":
   version "0.19.1"
@@ -2028,9 +2028,9 @@ hasown@^2.0.2:
     function-bind "^1.1.2"
 
 hono@^4.11.4:
-  version "4.11.10"
-  resolved "https://registry.yarnpkg.com/hono/-/hono-4.11.10.tgz#0cb40d3d8e2ff764c761b4267b99e3c7a6edf6a0"
-  integrity sha512-kyWP5PAiMooEvGrA9jcD3IXF7ATu8+o7B3KCbPXid5se52NPqnOpM/r9qeW2heMnOekF4kqR1fXJqCYeCLKrZg==
+  version "4.12.5"
+  resolved "https://registry.yarnpkg.com/hono/-/hono-4.12.5.tgz#8c16209b35040025d3f110d18f3b821de6cab00f"
+  integrity sha512-3qq+FUBtlTHhtYxbxheZgY8NIFnkkC/MR8u5TTsr7YZ3wixryQ3cCwn3iZbg8p8B88iDBBAYSfZDS75t8MN7Vg==
 
 http-errors@2.0.0, http-errors@^2.0.0:
   version "2.0.0"
